@@ -31,9 +31,3 @@ zuul:
 management:
   endpoint:
     health.show-details: always
-#定制actuator的info信息 @XX@ XX来自于pom.xml
-info:
-  app:
-    name: @project.name@
-    description: @project.description@
-    version: @project.version@
