@@ -35,5 +35,5 @@ zuul:
 management:
   endpoint:
     health.show-details: always
-from:
+where:
   hunan changsha
