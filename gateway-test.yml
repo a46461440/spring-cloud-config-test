@@ -16,7 +16,7 @@ zuul:
 #  prefix: /gateway
 #  strip-prefix: false
   filter:
-    root: ./dynamic-zuul-fileter
+    root: dynamic-zuul-fileter
     interval: 5
 #zuul:
 #  routes:
