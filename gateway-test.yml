@@ -11,8 +11,10 @@ zuul:
   #重定向引起的url为真正实例的url
   #敏感信息传递 cookie、set-cookie、Authorization
   sensitive-headers:
-#  routes:
-#    hello-provider:
+  routes:
+    hello-provider:
+      path: /service-a
+      service-id: hello-a
 #  prefix: /gateway
 #  strip-prefix: false
   filter:
